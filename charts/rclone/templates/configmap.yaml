@@ -5,4 +5,5 @@ metadata:
   labels:
 {{ include "kube-rclone.labels" . | indent 4 }}
 data:
-{{ (.Files.Glob "files/rclone.conf").AsConfig | indent 2 }}
+  "rclone.conf": |
+  {{- .Values.config | nindent 4 }}
