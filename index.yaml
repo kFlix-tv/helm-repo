@@ -3,6 +3,23 @@ entries:
   kube-rclone:
   - apiVersion: v1
     appVersion: v1.48.0
+    created: "2022-04-03T18:54:14.134633837Z"
+    description: A Helm chart for rclone
+    digest: 2827e442557c83cf173fc3aa73e2852d4226d5f7ad0d842474ebd1f7d58e162a
+    home: https://rclone.org/
+    icon: https://rclone.org/img/rclone-16x16.png
+    keywords:
+    - rclone
+    maintainers:
+    - name: kilian-tyler
+    name: kube-rclone
+    sources:
+    - https://github.com/kflix-tv/helm-charts
+    urls:
+    - https://github.com/kFlix-tv/helm-repo/releases/download/kube-rclone-0.1.1/kube-rclone-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: v1.48.0
     created: "2022-04-03T18:35:58.662343652Z"
     description: A Helm chart for rclone
     digest: f590e8ede6398a671217cf84deed5c70a223d1446dcf303d640d0a2d615cc054
@@ -18,4 +35,4 @@ entries:
     urls:
     - https://github.com/kFlix-tv/helm-repo/releases/download/kube-rclone-0.1.0/kube-rclone-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-03T18:35:58.662347452Z"
+generated: "2022-04-03T18:54:14.134641537Z"
